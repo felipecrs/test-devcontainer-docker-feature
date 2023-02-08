@@ -1,0 +1,5 @@
+services:
+  devcontainer:
+    image: mcr.microsoft.com/devcontainers/base:jammy
+    volumes:
+      - .:/workspace

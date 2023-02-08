@@ -1,0 +1,9 @@
+{
+	"name": "Ubuntu",
+	"dockerComposeFile": "../docker-compose.yaml",
+  	"service": "devcontainer",
+	"features": {
+		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+	},
+	"workspaceFolder": "/workspace"
+}
